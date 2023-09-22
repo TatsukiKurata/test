@@ -35,7 +35,13 @@ try:
     element = driver.find_element(By.NAME, "your-consent")
     element.click()
 
-    
+    # element = driver.find_element(By.CLASS_NAME, "wpcf7-form-control has-spinner wpcf7-submit")
+    # element.click()
+
+    element = driver.find_element(By.CSS_SELECTOR, "input[value='送信']")
+    element.click()
+
+
 
 
 
